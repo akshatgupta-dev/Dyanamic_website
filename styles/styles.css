@@ -1,0 +1,220 @@
+@media screen and (min-width: 1060px) {
+    body {
+        font-family: "Montserrat";
+        margin: 0;
+    }
+    img { 
+        max-width: 100%;
+    }
+    
+    :root {
+        --background-color: rgba(11,14,23,1);
+        --text-color: rgba(255,255,255,1);
+        --text-color-dim: rgba(255,255,255,0.64);
+    
+        --separator-line-color: rgba(101,19,114,0.48);
+    
+        --btn-background-color: rgba(58,11,77,1);
+        --btn-border: 2px solid rgba(101,19,114,1);
+        --btn-box-shadow: 6px 0 27px 14px rgba(58,11,77,0.78);
+    
+        --form-background-color: rgba(9,6,47,1);
+        --form-border-color: rgba(101,19,114,0.46);
+        --form-text-placeholder-color: rgba(255,255,255,0.26);
+    }
+    
+    
+    body {
+        background-color: var(--background-color);
+    }
+    
+    p {
+        color: var(--text-color-dim);
+    }
+    
+    .main_nav ul{
+        list-style-type: none;
+        display: flex;
+        margin: 0;
+        padding: 13.5px 50px;
+        border-bottom: 2px solid var(--separator-line-color);
+    }
+    
+    .main_nav ul li a {
+        color: var(--text-color);
+        text-decoration: none;
+        transition: 0.4 all ease;
+        font-size: 14px;
+        padding: 0 30px;
+    }
+    
+    .main-nav ul li a:hover {
+        color: #072232;
+    }
+    
+    .heading_1 {
+        color: var(--text-color-dim);
+        text-align: center;
+        padding-top: 180px;
+        padding-top: 20px;
+        margin-bottom: 0px;
+        margin-top: 100px;
+        font-weight: normal;
+        font-size: 17px;
+    }
+    
+    .text_b_head {
+        color: var(--text-color);
+        font-size: 22px;
+        text-align: center;
+        margin-top: 0;
+    }
+    
+    .globe_1 {
+        margin-left: 89px;
+        padding-top: 40px;
+    }
+    
+    .part_1 {
+        text-align: center;
+        padding-top: 45px;
+        padding-bottom: 66px;
+    }
+    
+    .button_1 {
+        background-color: var(--btn-background-color);
+        border: var(--btn-border);
+        box-shadow: var(--btn-box-shadow);
+        padding: 10px 55px;
+        color: var(--text-color);
+        border-radius: 10px;
+        font-size: 17px;
+    }
+
+    .terms_conditions_1 {
+        color: var(--text-color-dim);
+        font-size: 0.1rem;
+        padding-top: 5px;
+        padding-bottom: 100px;
+        border-bottom: 2px solid var(--separator-line-color);
+    
+    }
+    
+    .para_part {
+        color:white;
+        padding-left: 100px;
+        padding-right: 50px;
+    }
+    
+    .head {
+        font-weight: normal;
+        padding-top: 70px;
+        font-size: 52px;
+        color: white;
+    }
+    
+    .line_1 {
+        margin-top: -35px;
+        font-size: 25px;
+        color:white;
+    }
+    
+    .line_2 {
+        margin-top: 50px;
+        font-size: 18px;
+        color:white;
+    }
+    
+    .line_3 {
+        margin-top: 25px;
+        color:white;
+        font-size: 18px;
+        padding-bottom: 125px;
+    }
+    
+    .globe_2 {
+        margin-left: 530px;
+        margin-top: -1600px;
+        padding-bottom: 180px;    
+    }
+    
+    .sign_up {
+        text-align: center;
+        font-size: 50px;
+        padding-top: 60px;
+        border-top: 2px solid var(--separator-line-color);
+        font-weight: normal;
+        color: white;
+    }
+    
+    .heading_under {
+        text-align: center;
+        margin-top: -35px;
+    }
+    
+    .box {
+        color: var(--text-color);
+        border-radius: 25px;
+        width: 25%;
+        margin: auto;
+        background-color: var(--form-background-color);
+        color: var(--text-color); 
+        border: var(--btn-border);
+        box-shadow: var(--btn-box-shadow);
+        padding: 50px 80px;
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    
+    .name {
+        background-color: var(--btn-background-color);
+        border: var(--btn-border);
+        margin-bottom: 10px;
+        box-shadow: var(--btn-box-shadow);
+        height: 30px;
+        color: var(--text-color);
+        border-radius: 10px;
+        text-align: center;
+        align-items: center;
+        margin-left: 41px;
+    }
+    
+    .email {
+        margin-bottom: 20px;
+    }
+    
+    .signup_button {
+        background-color: var(--btn-background-color);
+        font-weight: normal;
+        font-style: normal;
+        margin-bottom: 10px;
+        margin-left: 45px;
+        border: var(--btn-border);
+        box-shadow: var(--btn-box-shadow);
+        height: 30px;
+        color: var(--text-color);
+        border-radius: 10px;
+        text-align: center;
+        padding-top: 8px;
+        padding-bottom: 25px;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    
+    .terms_condition_2 {
+        font-size: 2px;
+        margin: auto;
+        text-align: center;
+    }
+    
+    footer {
+        border-top: 2px solid var(--separator-line-color);
+        padding: 10px;
+        text-align: center;
+        font-size: 0.7rem;
+        background-color: #000000;
+        margin-top: -6px;
+        color: var(--text-color-dim);
+    } 
+}
